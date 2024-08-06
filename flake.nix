@@ -1,5 +1,5 @@
 {
-  description = "git archive --remote=https://github.com/AlexWright1324/default.git | tar -t";
+  description = "git clone https://github.com/AlexWright1324/default.git <NAME> && rm -rf $_/.git";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
