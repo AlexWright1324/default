@@ -1,4 +1,6 @@
 {
+  description = "git archive --remote=https://github.com/AlexWright1324/default.git | tar -t";
+
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
